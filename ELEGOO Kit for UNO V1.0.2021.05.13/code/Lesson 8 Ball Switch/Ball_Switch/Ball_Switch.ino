@@ -2,12 +2,13 @@
 //2016.12.08
 /*****************************************/
 const int ledPin = 13;//the led attach to
+const int ballSwitchPin = 2; //the pin tilt ball switch is connected to
 
 void setup()
 { 
-  pinMode(ledPin,OUTPUT);//initialize the ledPin as an output
-  pinMode(2,INPUT);
-  digitalWrite(2, HIGH);
+  pinMode(ledPin,OUTPUT); //initialize the ledPin as an output
+  pinMode(ballSwitchPin,INPUT);
+  digitalWrite(ballSwitchPin, HIGH);
 } 
 /******************************************/
 void loop() 
