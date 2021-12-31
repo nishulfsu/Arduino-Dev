@@ -1,0 +1,5 @@
+{
+    "board": "Intel:arc32:arduino_101",
+    "port": "COM4",
+    "sketch": "RGB_LED_SOS\\RGB_LED_SOS.ino"
+}
